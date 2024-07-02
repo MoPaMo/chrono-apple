@@ -3,33 +3,43 @@ const epochs = [
     year: 1400,
     name: "Renaissance",
     description: "Characterized by a revival of classical learning and wisdom.",
-    imageUrl: "/api/placeholder/400/400",
+    imageUrl: `https://placehold.co/400x400?text=${encodeURIComponent(
+      "Renaissance"
+    )}`,
   },
   {
     year: 1600,
     name: "Baroque",
     description:
       "Known for its ornate, extravagant style and dramatic effects.",
-    imageUrl: "/api/placeholder/400/400",
+    imageUrl: `https://placehold.co/400x400?text=${encodeURIComponent(
+      "Baroque"
+    )}`,
   },
   {
     year: 1780,
     name: "Neoclassicism",
     description: "A return to the ideals of classical antiquity.",
-    imageUrl: "/api/placeholder/400/400",
+    imageUrl: `https://placehold.co/400x400?text=${encodeURIComponent(
+      "Neoclassicism"
+    )}`,
   },
   {
     year: 1850,
     name: "Impressionism",
     description: "Capturing the fleeting effects of light and color.",
-    imageUrl: "/api/placeholder/400/400",
+    imageUrl: `https://placehold.co/400x400?text=${encodeURIComponent(
+      "Impressionism"
+    )}`,
   },
   {
     year: 1905,
     name: "Cubism",
     description:
       "Breaking objects into geometric shapes viewed from multiple angles.",
-    imageUrl: "/api/placeholder/400/400",
+    imageUrl: `https://placehold.co/400x400?text=${encodeURIComponent(
+      "Cubism"
+    )}`,
   },
 ];
 
