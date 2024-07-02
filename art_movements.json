@@ -4,8 +4,8 @@
       "name": "Prehistoric Art",
       "start_date": "-038000-01-01",
       "end_date": "-002000-01-01",
-      "description": "Simple, stylized forms, often found in cave paintings or petroglyphs.",
-      "period_description": "The earliest known human artistic expressions, created before the development of writing systems.",
+      "description": "Simple, stylized forms often depicted in cave paintings or petroglyphs.",
+      "period_description": "The earliest known human artistic expressions, created long before the advent of writing systems.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Prehistoric_art",
       "imageUrl": "https://placehold.co/200x200"
     },
@@ -13,8 +13,8 @@
       "name": "Ancient Egyptian Art",
       "start_date": "-003000-01-01",
       "end_date": "-0030-01-01",
-      "description": "Flat, profile views with bold outlines. Colors are solid and symbolic rather than realistic.",
-      "period_description": "Art from the ancient Egyptian civilization, characterized by its stylized depiction of gods, pharaohs, and symbolic imagery.",
+      "description": "Flat, profile views with bold, solid, and symbolic colors rather than realistic ones.",
+      "period_description": "Art from ancient Egypt, characterized by its stylized depiction of deities, pharaohs, and symbolic imagery.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Art_of_ancient_Egypt",
       "imageUrl": "https://placehold.co/200x200"
     },
@@ -31,8 +31,8 @@
       "name": "Ancient Roman Art",
       "start_date": "-000753-01-01",
       "end_date": "0476-01-01",
-      "description": "Realistic depiction, often in mosaics or frescoes, influenced by Greek art but with a focus on portraiture and historical scenes.",
-      "period_description": "Art from the Roman civilization, known for its architecture, sculpture, and decorative arts.",
+      "description": "Realistic depictions, often in mosaics or frescoes, influenced by Greek art but with a focus on portraiture and historical scenes.",
+      "period_description": "Art from the Roman civilization, renowned for its architecture, sculpture, and decorative arts.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Roman_art",
       "imageUrl": "https://placehold.co/200x200"
     },
@@ -40,8 +40,8 @@
       "name": "Byzantine Art",
       "start_date": "0330-01-01",
       "end_date": "1453-05-29",
-      "description": "Highly stylized, often with gold leaf, as part of religious icons and mosaics.",
-      "period_description": "Art of the Eastern Roman (Byzantine) Empire, characterized by religious themes and ornate decoration.",
+      "description": "Highly stylized and often adorned with gold leaf, particularly in religious icons and mosaics.",
+      "period_description": "Art of the Eastern Roman (Byzantine) Empire, marked by religious themes and ornate decoration.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Byzantine_art",
       "imageUrl": "https://placehold.co/200x200"
     },
@@ -49,7 +49,7 @@
       "name": "Medieval Art",
       "start_date": "0500-01-01",
       "end_date": "1400-01-01",
-      "description": "Religious context, flat colors, and stylized forms, often seen in illuminated manuscripts.",
+      "description": "Religious themes, flat colors, and stylized forms, commonly seen in illuminated manuscripts.",
       "period_description": "Art from the Middle Ages in Europe, heavily influenced by Christianity and feudal society.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Medieval_art",
       "imageUrl": "https://placehold.co/200x200"
@@ -58,8 +58,8 @@
       "name": "Gothic Art",
       "start_date": "1140-01-01",
       "end_date": "1600-01-01",
-      "description": "Elongated forms, often seen in architecture and stained glass windows.",
-      "period_description": "Late medieval art style characterized by pointed arches, ribbed vaults, and large windows.",
+      "description": "Elongated forms frequently seen in architecture and stained glass windows.",
+      "period_description": "Late medieval art style noted for its pointed arches, ribbed vaults, and large windows.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Gothic_art",
       "imageUrl": "https://placehold.co/200x200"
     },
@@ -67,7 +67,7 @@
       "name": "Renaissance",
       "start_date": "1300-01-01",
       "end_date": "1600-01-01",
-      "description": "Precise detail, accurate shading, and perfect perspective, often in paintings and sculptures.",
+      "description": "Precise detail, accurate shading, and perfect perspective in paintings and sculptures.",
       "period_description": "A revival of classical learning and values, emphasizing realism and human-focused themes.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Renaissance_art",
       "imageUrl": "https://placehold.co/200x200"
@@ -76,7 +76,7 @@
       "name": "Mannerism",
       "start_date": "1520-01-01",
       "end_date": "1600-01-01",
-      "description": "Exaggerated, elegant style with unusual colors or proportions.",
+      "description": "Exaggerated, elegant styles with unusual colors or proportions.",
       "period_description": "A style that emerged from the later years of the Italian High Renaissance, reacting against harmonious classicism.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Mannerism",
       "imageUrl": "https://placehold.co/200x200"
@@ -86,7 +86,7 @@
       "start_date": "1600-01-01",
       "end_date": "1750-01-01",
       "description": "Dramatic lighting, rich colors, and dynamic compositions.",
-      "period_description": "An artistic style characterized by exuberance, drama, and grandeur in sculpture, painting, architecture, and music.",
+      "period_description": "An artistic style marked by exuberance, drama, and grandeur across sculpture, painting, architecture, and music.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Baroque",
       "imageUrl": "https://placehold.co/200x200"
     },
@@ -95,7 +95,7 @@
       "start_date": "1720-01-01",
       "end_date": "1780-01-01",
       "description": "Ornate, playful style with pastel colors and curving forms.",
-      "period_description": "An 18th-century artistic movement and style characterized by lightness, elegance, and exuberant use of curving natural forms.",
+      "period_description": "An 18th-century artistic movement characterized by lightness, elegance, and exuberant use of curving natural forms.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Rococo",
       "imageUrl": "https://placehold.co/200x200"
     },
@@ -104,7 +104,7 @@
       "start_date": "1750-01-01",
       "end_date": "1850-01-01",
       "description": "Idealized realism inspired by classical antiquity.",
-      "period_description": "A revival of the styles and spirit of classic antiquity inspired directly from the classical period.",
+      "period_description": "A revival of styles and spirit from classical antiquity, inspired directly from the classical period.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Neoclassicism",
       "imageUrl": "https://placehold.co/200x200"
     },
@@ -112,8 +112,8 @@
       "name": "Romanticism",
       "start_date": "1780-01-01",
       "end_date": "1850-01-01",
-      "description": "Dreamy, idealized manner, possibly in a natural setting with soft lighting.",
-      "period_description": "An artistic, literary, musical and intellectual movement emphasizing emotion and individualism.",
+      "description": "Dreamy, idealized manner often set in natural settings with soft lighting.",
+      "period_description": "An artistic, literary, musical, and intellectual movement emphasizing emotion and individualism.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Romanticism",
       "imageUrl": "https://placehold.co/200x200"
     },
@@ -139,7 +139,7 @@
       "name": "Post-Impressionism",
       "start_date": "1886-01-01",
       "end_date": "1905-01-01",
-      "description": "Bold colors and thick brushstrokes, possibly distorting form for emotional effect.",
+      "description": "Bold colors and thick brushstrokes, potentially distorting form for emotional effect.",
       "period_description": "A predominantly French art movement that developed roughly between 1886 and 1905, extending Impressionism while rejecting its limitations.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Post-Impressionism",
       "imageUrl": "https://placehold.co/200x200"
@@ -157,8 +157,8 @@
       "name": "Fauvism",
       "start_date": "1905-01-01",
       "end_date": "1910-01-01",
-      "description": "Wild, expressive use of color not tied to reality.",
-      "period_description": "The style of les Fauves (French for \"the wild beasts\"), a group of early 20th-century modern artists whose works emphasized painterly qualities and strong color over the representational values.",
+      "description": "Vivid, expressive use of color not tied to reality.",
+      "period_description": "The style of les Fauves (French for 'the wild beasts'), a group of early 20th-century modern artists whose works emphasized painterly qualities and strong color over representational values.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Fauvism",
       "imageUrl": "https://placehold.co/200x200"
     },
@@ -176,7 +176,7 @@
       "start_date": "1907-01-01",
       "end_date": "1922-01-01",
       "description": "Fragmented into geometric shapes, shown from multiple angles simultaneously on a flat plane.",
-      "period_description": "An early-20th-century avant-garde art movement that revolutionized European painting and sculpture.",
+      "period_description": "An early-20th-century avant-garde art movement that revolutionized European painting and sculpture by depicting objects from multiple viewpoints.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Cubism",
       "imageUrl": "https://placehold.co/200x200"
     },
@@ -193,7 +193,7 @@
       "name": "Dada",
       "start_date": "1915-01-01",
       "end_date": "1924-01-01",
-      "description": "Provocative, absurdist approach, possibly a found object or collage.",
+      "description": "Provocative, absurdist approach, often using found objects or collage.",
       "period_description": "An art movement of the European avant-garde in the early 20th century, rejecting logic and reason in favor of nonsense, irrationality, and intuition.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Dada",
       "imageUrl": "https://placehold.co/200x200"
@@ -202,7 +202,7 @@
       "name": "Surrealism",
       "start_date": "1924-01-01",
       "end_date": "1950-01-01",
-      "description": "Realistic painting but in an impossible or dreamlike context, defying logic and reality.",
+      "description": "Realistic painting but in an impossible or dreamlike context that defies logic and reality.",
       "period_description": "A cultural movement that began in the early 1920s, best known for its visual artworks and writings that aimed to release the creative potential of the unconscious mind.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Surrealism",
       "imageUrl": "https://placehold.co/200x200"
@@ -211,8 +211,8 @@
       "name": "Abstract Expressionism",
       "start_date": "1943-01-01",
       "end_date": "1965-01-01",
-      "description": "Gestural brushstrokes and emotive use of color, with form barely recognizable.",
-      "period_description": "A post-World War II art movement developed in New York in the 1940s, characterized by spontaneous, automatic, or subconscious creation.",
+      "description": "Gestural brushstrokes and emotive use of color, with form often barely recognizable.",
+      "period_description": "A post-World War II art movement that developed in New York in the 1940s, characterized by spontaneous, automatic, or subconscious creation.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Abstract_expressionism",
       "imageUrl": "https://placehold.co/200x200"
     },
@@ -220,8 +220,8 @@
       "name": "Pop Art",
       "start_date": "1950-01-01",
       "end_date": "1970-01-01",
-      "description": "Flat, graphic style with bold colors, possibly repeated in a grid or with elements of mass media or advertising.",
-      "period_description": "An art movement that emerged in the United Kingdom and the United States during the mid- to late-1950s, challenging traditions of fine art by including imagery from popular and mass culture.",
+      "description": "Flat, graphic style with bold colors, often incorporating elements of mass media or advertising.",
+      "period_description": "An art movement that emerged in the UK and the US during the mid- to late-1950s, challenging fine art traditions by including imagery from popular and mass culture.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Pop_art",
       "imageUrl": "https://placehold.co/200x200"
     },
@@ -229,8 +229,8 @@
       "name": "Minimalism",
       "start_date": "1960-01-01",
       "end_date": "1970-01-01",
-      "description": "Reduced to its most basic form, perhaps just a simple shape or monochromatic representation.",
-      "period_description": "A movement in visual arts, music, and other mediums that began in post-World War II Western art, characterized by extreme simplicity of form and a literal, objective approach.",
+      "description": "Reduced to its most basic form, featuring simple shapes or monochromatic representations.",
+      "period_description": "A movement in visual arts, music, and other mediums beginning in post-World War II Western art, characterized by extreme simplicity of form and a literal, objective approach.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Minimalism",
       "imageUrl": "https://placehold.co/200x200"
     },
@@ -238,8 +238,8 @@
       "name": "Conceptual Art",
       "start_date": "1960-01-01",
       "end_date": null,
-      "description": "Focus on ideas over visual forms, possibly just a written description of an apple.",
-      "period_description": "Art in which the idea or concept presented by the artist is considered more important than the finished product, if any such product exists.",
+      "description": "Focus on ideas over visual forms, often involving written descriptions or ephemeral installations.",
+      "period_description": "Art where the concept or idea behind the work is given more importance than the finished product, challenging traditional notions of art.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Conceptual_art",
       "imageUrl": "https://placehold.co/200x200"
     },
@@ -247,8 +247,8 @@
       "name": "Digital Art",
       "start_date": "1980-01-01",
       "end_date": null,
-      "description": "Various digital styles, from photorealistic 3D modeling to pixel art or glitch aesthetics.",
-      "period_description": "An artistic work or practice that uses digital technologies as an essential part of the creative or presentation process.",
+      "description": "Encompasses various digital styles, from photorealistic 3D modeling to pixel art and glitch aesthetics.",
+      "period_description": "Art created or presented using digital technologies, becoming increasingly widespread with advancements in computer technology.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Digital_art",
       "imageUrl": "https://placehold.co/200x200"
     }
