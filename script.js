@@ -9,7 +9,10 @@ let currentEpoch = 0;
 const updateContent = () => {
   const epoch = epochs[currentEpoch];
   document.getElementById("epoch-name").textContent = epoch.name;
-  document.getElementById("epoch-description").textContent = epoch.description;
+  document.getElementById("epoch-style").textContent =
+    "Style: " + epoch.description;
+  document.getElementById("epoch-description").textContent =
+    "Context: " + epoch.period_description;
   document.getElementById("epoch-image").src = epoch.imageUrl;
   document.getElementById("epoch-image").alt = `Apple in ${epoch.name} style`;
   document.getElementById("epoch-year").textContent = epoch.year;
