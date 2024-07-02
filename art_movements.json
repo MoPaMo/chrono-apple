@@ -37,7 +37,8 @@
       "description": "Realistic depictions, often in mosaics or frescoes, influenced by Greek art but with a focus on portraiture and historical scenes.",
       "period_description": "Art from the Roman civilization, renowned for its architecture, sculpture, and decorative arts.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Roman_art",
-      "imageUrl": "https://placehold.co/200x200"
+      "imageUrl": "/images/roman.jpg",
+      "imageTitle": "Fresco in the Villa of the Mysteries (Pompei)"
     },
     {
       "name": "Byzantine Art",
@@ -46,7 +47,8 @@
       "description": "Highly stylized and often adorned with gold leaf, particularly in religious icons and mosaics.",
       "period_description": "Art of the Eastern Roman (Byzantine) Empire, marked by religious themes and ornate decoration.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Byzantine_art",
-      "imageUrl": "https://placehold.co/200x200"
+      "imageUrl": "/images/byzantine.jpg",
+      "imageTitle": "Christ Pantocrator"
     },
     {
       "name": "Medieval Art",
