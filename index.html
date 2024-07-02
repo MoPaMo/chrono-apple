@@ -3,7 +3,243 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ChronoApple</title>
+    <title>Chronological Apple</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f7fafc;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+        padding: 2rem;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+      }
+
+      .content {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 960px;
+      }
+
+      .info {
+        width: 25%;
+        padding-right: 2rem;
+      }
+
+      .info h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+      }
+
+      .info p {
+        color: #4a5568;
+      }
+
+      .image-container {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .image-container img {
+        width: 100%;
+        max-width: 400px;
+        margin-bottom: 1rem;
+        border-radius: 0.5rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .year {
+        font-size: 1.25rem;
+        font-weight: 600;
+      }
+
+      .scroll-indicator {
+        width: 25%;
+        padding-left: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .scroll-indicator .line {
+        height: 100%;
+        width: 1px;
+        background-color: #d1d5db;
+        position: relative;
+      }
+
+      .scroll-indicator .dot {
+        width: 12px;
+        height: 12px;
+        background-color: #3b82f6;
+        border-radius: 50%;
+        position: absolute;
+        left: -6px;
+      }
+
+      .scroll-indicator .arrow {
+        color: #6b7280;
+      }
+
+      .scroll-indicator .arrow svg {
+        width: 24px;
+        height: 24px;
+      }
+
+      .scroll-indicator .arrow.up {
+        margin-bottom: 1rem;
+      }
+
+      .scroll-indicator .arrow.down {
+        margin-top: 1rem;
+      }
+
+      .scroll-indicator p {
+        margin-top: 1rem;
+        font-size: 0.875rem;
+        color: #6b7280;
+      }
+    </style>
   </head>
-  <body></body>
+
+  <body>
+    <div class="container">
+      <h1>Chronological Apple</h1>
+      <div class="content">
+        <div class="info">
+          <h2 id="epoch-name">Renaissance</h2>
+          <p id="epoch-description">
+            Characterized by a revival of classical learning and wisdom.
+          </p>
+        </div>
+        <div class="image-container">
+          <img
+            id="epoch-image"
+            src="/api/placeholder/400/400"
+            alt="Apple in Renaissance style"
+          />
+          <p id="epoch-year" class="year">1400</p>
+        </div>
+        <div class="scroll-indicator">
+          <div class="arrow up">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M19 15l-7-7-7 7"
+              ></path>
+            </svg>
+          </div>
+          <div class="line">
+            <div id="scroll-dot" class="dot"></div>
+          </div>
+          <div class="arrow down">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M5 9l7 7 7-7"
+              ></path>
+            </svg>
+          </div>
+          <p>Scroll to explore different art epochs</p>
+        </div>
+      </div>
+    </div>
+    <script>
+      const epochs = [
+        {
+          year: 1400,
+          name: "Renaissance",
+          description:
+            "Characterized by a revival of classical learning and wisdom.",
+          imageUrl: "/api/placeholder/400/400",
+        },
+        {
+          year: 1600,
+          name: "Baroque",
+          description:
+            "Known for its ornate, extravagant style and dramatic effects.",
+          imageUrl: "/api/placeholder/400/400",
+        },
+        {
+          year: 1780,
+          name: "Neoclassicism",
+          description: "A return to the ideals of classical antiquity.",
+          imageUrl: "/api/placeholder/400/400",
+        },
+        {
+          year: 1850,
+          name: "Impressionism",
+          description: "Capturing the fleeting effects of light and color.",
+          imageUrl: "/api/placeholder/400/400",
+        },
+        {
+          year: 1905,
+          name: "Cubism",
+          description:
+            "Breaking objects into geometric shapes viewed from multiple angles.",
+          imageUrl: "/api/placeholder/400/400",
+        },
+      ];
+
+      let currentEpoch = 0;
+
+      const updateContent = () => {
+        const epoch = epochs[currentEpoch];
+        document.getElementById("epoch-name").textContent = epoch.name;
+        document.getElementById("epoch-description").textContent =
+          epoch.description;
+        document.getElementById("epoch-image").src = epoch.imageUrl;
+        document.getElementById(
+          "epoch-image"
+        ).alt = `Apple in ${epoch.name} style`;
+        document.getElementById("epoch-year").textContent = epoch.year;
+
+        // Update dot position
+        const dot = document.getElementById("scroll-dot");
+        dot.style.top = `${(currentEpoch / (epochs.length - 1)) * 100}%`;
+      };
+
+      const handleScroll = () => {
+        const scrollPosition = window.scrollY;
+        const windowHeight = window.innerHeight;
+        const docHeight = document.documentElement.scrollHeight;
+        const scrollPercentage = scrollPosition / (docHeight - windowHeight);
+        currentEpoch = Math.floor(scrollPercentage * epochs.length);
+        currentEpoch = Math.min(currentEpoch, epochs.length - 1);
+        updateContent();
+      };
+
+      window.addEventListener("scroll", handleScroll);
+      updateContent(); // Initialize content
+    </script>
+  </body>
 </html>
