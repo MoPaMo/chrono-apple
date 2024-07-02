@@ -42,7 +42,6 @@ const epochs = [
     )}`,
   },
 ];
-
 let currentEpoch = 0;
 
 const updateContent = () => {
@@ -63,10 +62,17 @@ const handleScroll = () => {
   const windowHeight = window.innerHeight;
   const docHeight = document.documentElement.scrollHeight;
   const scrollPercentage = scrollPosition / (docHeight - windowHeight);
+
   currentEpoch = Math.floor(scrollPercentage * epochs.length);
   currentEpoch = Math.min(currentEpoch, epochs.length - 1);
+
   updateContent();
 };
 
 window.addEventListener("scroll", handleScroll);
 updateContent(); // Initialize content
+
+// Set the height of the scroll container
+document.querySelector(".scroll-container").style.height = `${
+  epochs.length * 100
+}vh`;

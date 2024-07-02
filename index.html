@@ -114,11 +114,24 @@
         font-size: 0.875rem;
         color: #6b7280;
       }
+      .fixed-content {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        max-width: 960px;
+      }
+
+      .scroll-container {
+        height: 500vh; /* Adjust this value based on the number of epochs */
+      }
     </style>
   </head>
 
   <body>
-    <div class="container">
+    <div class="scroll-container"></div>
+    <div class="fixed-content">
       <h1>Chronological Apple</h1>
       <div class="content">
         <div class="info">
