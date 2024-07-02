@@ -7,7 +7,7 @@
       "description": "Simple, stylized forms often depicted in cave paintings or petroglyphs.",
       "period_description": "The earliest known human artistic expressions, created long before the advent of writing systems.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Prehistoric_art",
-      "imageUrl": "https://placehold.co/200x200"
+      "imageUrl": "/images/preh.jpg"
     },
     {
       "name": "Ancient Egyptian Art",
@@ -16,7 +16,7 @@
       "description": "Flat, profile views with bold, solid, and symbolic colors rather than realistic ones.",
       "period_description": "Art from ancient Egypt, characterized by its stylized depiction of deities, pharaohs, and symbolic imagery.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Art_of_ancient_Egypt",
-      "imageUrl": "https://placehold.co/200x200"
+      "imageUrl": "/images/egypt.jpg"
     },
     {
       "name": "Classical Greek Art",
@@ -25,7 +25,8 @@
       "description": "Idealized realism with perfect proportions and subtle shading to create a three-dimensional effect.",
       "period_description": "Art from ancient Greece that set standards for beauty and proportion in Western art.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Ancient_Greek_art",
-      "imageUrl": "https://placehold.co/200x200"
+      "imageUrl": "/images/greek.jpg",
+      "imageTitle": "Alexander Mosaic by Apelles"
     },
     {
       "name": "Ancient Roman Art",
@@ -214,7 +215,7 @@
       "description": "Gestural brushstrokes and emotive use of color, with form often barely recognizable.",
       "period_description": "A post-World War II art movement that developed in New York in the 1940s, characterized by spontaneous, automatic, or subconscious creation.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Abstract_expressionism",
-      "imageUrl": "https://placehold.co/200x200"
+      "imageUrl": "/images/abstract-expressionism.jpeg"
     },
     {
       "name": "Pop Art",
