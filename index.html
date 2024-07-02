@@ -126,6 +126,31 @@
       .scroll-container {
         height: 500vh; /* Adjust this value based on the number of epochs */
       }
+      .scroll-indicator {
+        width: 25%;
+        padding-left: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 60vh; /* Set a fixed height for the scroll indicator */
+      }
+
+      .scroll-indicator .line {
+        height: 100%;
+        width: 1px;
+        background-color: #d1d5db;
+        position: relative;
+      }
+
+      .scroll-indicator .dot {
+        width: 12px;
+        height: 12px;
+        background-color: #3b82f6;
+        border-radius: 50%;
+        position: absolute;
+        left: -6px;
+        transition: top 0.3s ease; /* Add smooth transition for dot movement */
+      }
     </style>
   </head>
 
