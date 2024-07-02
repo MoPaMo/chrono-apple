@@ -67,7 +67,8 @@
       "description": "Elongated forms frequently seen in architecture and stained glass windows.",
       "period_description": "Late medieval art style noted for its pointed arches, ribbed vaults, and large windows.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Gothic_art",
-      "imageUrl": "https://placehold.co/200x200"
+      "imageUrl": "/images/gothic.jpg",
+      "imageTitle": "The Wilton Diptych"
     },
     {
       "name": "Renaissance",
