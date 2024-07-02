@@ -57,7 +57,8 @@
       "description": "Religious themes, flat colors, and stylized forms, commonly seen in illuminated manuscripts.",
       "period_description": "Art from the Middle Ages in Europe, heavily influenced by Christianity and feudal society.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Medieval_art",
-      "imageUrl": "https://placehold.co/200x200"
+      "imageUrl": "/images/medieval.jpg",
+      "imageTitle": "Last Judgment, by Gislebertus"
     },
     {
       "name": "Gothic Art",
