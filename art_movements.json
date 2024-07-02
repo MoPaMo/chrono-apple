@@ -7,7 +7,8 @@
       "description": "Simple, stylized forms often depicted in cave paintings or petroglyphs.",
       "period_description": "The earliest known human artistic expressions, created long before the advent of writing systems.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Prehistoric_art",
-      "imageUrl": "/images/preh.jpg"
+      "imageUrl": "/images/preh.jpg",
+      "imageTitle": "Lascaux Cave Paintings"
     },
     {
       "name": "Ancient Egyptian Art",
@@ -16,7 +17,8 @@
       "description": "Flat, profile views with bold, solid, and symbolic colors rather than realistic ones.",
       "period_description": "Art from ancient Egypt, characterized by its stylized depiction of deities, pharaohs, and symbolic imagery.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Art_of_ancient_Egypt",
-      "imageUrl": "/images/egypt.jpg"
+      "imageUrl": "/images/egypt.jpg",
+      "imageTitle": "The Last Judgment of Hunefer"
     },
     {
       "name": "Classical Greek Art",
