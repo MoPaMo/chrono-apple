@@ -26,7 +26,8 @@ const setScrollContainerHeight = () => {
   }vh`;
 };
 const scroll = (direction) => {
-    window.scrollBy(0, direction*scrollThreshold);
+  window.scrollBy(0, direction * scrollThreshold);
+};
 
 const updateContent = () => {
   const epoch = epochs[currentEpoch];
