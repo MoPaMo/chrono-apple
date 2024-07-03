@@ -53,14 +53,42 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        position: relative;
+        aspect-ratio: 1 / 1;
+        overflow: hidden;
       }
 
       .image-container img {
         width: 100%;
-        max-width: 400px;
-        margin-bottom: 1rem;
+        height: 100%;
+        object-fit: cover;
         border-radius: 0.5rem;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .image-title {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        padding: 0.5rem;
+        text-align: center;
+        font-size: 0.9rem;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      .fade-in {
+        animation: fadeIn 0.5s ease-in-out;
       }
 
       .year {
@@ -151,18 +179,6 @@
         left: -6px;
         transition: top 0.3s ease; /* Add smooth transition for dot movement */
       }
-      @keyframes fadeIn {
-        from {
-          opacity: 0;
-        }
-        to {
-          opacity: 1;
-        }
-      }
-
-      .fade-in {
-        animation: fadeIn 0.5s ease-in-out;
-      }
     </style>
   </head>
 
@@ -175,14 +191,15 @@
           <h2 id="epoch-name">Start scrolling</h2>
           <p id="epoch-style">Do it :)</p>
           <p id="epoch-description"></p>
+          <p id="epoch-year"></p>
         </div>
-        <div class="image-container">
+        <div class="image-container" id="image-container">
           <img
             id="epoch-image"
             src="https://placehold.co/200x200?text=Start+scrolling!"
             alt="Apple in Renaissance style"
           />
-          <p id="epoch-year" class="year">0</p>
+          <div class="image-title" id="image-title">Start scrolling</div>
         </div>
         <div class="scroll-indicator">
           <div class="arrow up">

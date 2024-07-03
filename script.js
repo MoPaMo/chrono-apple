@@ -1,7 +1,7 @@
 let epochs = [];
 let currentEpoch = 0;
 let lastScrollPosition = 0;
-const scrollThreshold = 50; // Adjust this value to control scroll sensitivity
+const scrollThreshold = 50;
 
 const fetchEpochs = async () => {
   try {
@@ -32,7 +32,9 @@ const updateContent = () => {
     name: document.getElementById("epoch-name"),
     style: document.getElementById("epoch-style"),
     description: document.getElementById("epoch-description"),
+    imageContainer: document.getElementById("image-container"),
     image: document.getElementById("epoch-image"),
+    imageTitle: document.getElementById("image-title"),
     year: document.getElementById("epoch-year"),
     dot: document.getElementById("scroll-dot"),
   };
@@ -41,26 +43,28 @@ const updateContent = () => {
   elements.style.textContent = `Style: ${epoch.description}`;
   elements.description.textContent = `Context: ${epoch.period_description}`;
   elements.image.src = epoch.imageUrl;
-  elements.image.alt = `Apple in ${epoch.name} style`;
-  elements.year.textContent = epoch.year;
+  elements.image.alt = epoch.imageTitle;
+  elements.imageTitle.textContent = epoch.imageTitle;
+
+  // Extract year from start_date
+  const startYear = new Date(epoch.start_date).getFullYear();
+  elements.year.textContent =
+    startYear < 0 ? Math.abs(startYear) + " BCE" : startYear + " CE";
 
   elements.dot.style.top = `${(currentEpoch / (epochs.length - 1)) * 100}%`;
 
   // Add fade-in animation
-  elements.name.classList.add("fade-in");
-  elements.style.classList.add("fade-in");
-  elements.description.classList.add("fade-in");
-  elements.image.classList.add("fade-in");
-  elements.year.classList.add("fade-in");
-
-  // Remove fade-in class after animation completes
-  setTimeout(() => {
-    elements.name.classList.remove("fade-in");
-    elements.style.classList.remove("fade-in");
-    elements.description.classList.remove("fade-in");
-    elements.image.classList.remove("fade-in");
-    elements.year.classList.remove("fade-in");
-  }, 500);
+  const fadeElements = [
+    elements.name,
+    elements.style,
+    elements.description,
+    elements.imageContainer,
+    elements.year,
+  ];
+  fadeElements.forEach((el) => {
+    el.classList.add("fade-in");
+    setTimeout(() => el.classList.remove("fade-in"), 500);
+  });
 };
 
 const handleScroll = () => {
@@ -69,7 +73,6 @@ const handleScroll = () => {
   const docHeight = document.documentElement.scrollHeight;
   const scrollPercentage = scrollPosition / (docHeight - windowHeight);
 
-  // Check if scroll distance exceeds threshold
   if (Math.abs(scrollPosition - lastScrollPosition) > scrollThreshold) {
     const newEpoch = Math.floor(scrollPercentage * epochs.length);
     if (
@@ -89,5 +92,4 @@ const addEventListeners = () => {
   window.addEventListener("resize", setScrollContainerHeight);
 };
 
-// Start the app
 fetchEpochs();
