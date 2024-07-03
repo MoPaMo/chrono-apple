@@ -177,7 +177,8 @@
       "description": "Vivid, expressive use of color not tied to reality.",
       "period_description": "The style of les Fauves (French for 'the wild beasts'), a group of early 20th-century modern artists whose works emphasized painterly qualities and strong color over representational values.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Fauvism",
-      "imageUrl": "https://placehold.co/200x200"
+      "imageUrl": "/images/fauvism.jpg",
+      "imageTitle": "Woman with a Hat by Henri Matisse"
     },
     {
       "name": "Expressionism",
@@ -186,7 +187,8 @@
       "description": "Distorted forms and colors to evoke emotional responses.",
       "period_description": "A modernist movement originating in Germany at the beginning of the 20th century, focused on expressing emotion and subjective perspective.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Expressionism",
-      "imageUrl": "https://placehold.co/200x200"
+      "imageUrl": "/images/expressionism.jpg",
+      "imageTitle": "The Scream by Edvard Munch"
     },
     {
       "name": "Cubism",
@@ -195,7 +197,8 @@
       "description": "Fragmented into geometric shapes, shown from multiple angles simultaneously on a flat plane.",
       "period_description": "An early-20th-century avant-garde art movement that revolutionized European painting and sculpture by depicting objects from multiple viewpoints.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Cubism",
-      "imageUrl": "https://placehold.co/200x200"
+      "imageUrl": "https://www.singulart.com/blog/wp-content/uploads/2018/08/les-demoiselles-davignon-1.jpg",
+      "imageTitle": "Les Demoiselles d’Avignon by Pablo Picasso"
     },
     {
       "name": "Futurism",
@@ -204,7 +207,8 @@
       "description": "Dynamic, fragmented forms suggesting movement and technology.",
       "period_description": "An artistic and social movement originating in Italy that emphasized speed, technology, youth, violence, and objects such as the car, the airplane, and the industrial city.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Futurism",
-      "imageUrl": "https://placehold.co/200x200"
+      "imageUrl": "/images/futurism.jpg",
+      "imageTitle": "Dynamic Hieroglyphic of the Bal Tabarin by Gino Severini"
     },
     {
       "name": "Dada",
@@ -213,7 +217,8 @@
       "description": "Provocative, absurdist approach, often using found objects or collage.",
       "period_description": "An art movement of the European avant-garde in the early 20th century, rejecting logic and reason in favor of nonsense, irrationality, and intuition.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Dada",
-      "imageUrl": "https://placehold.co/200x200"
+      "imageUrl": "https://placehold.co/200x200",
+      "imageTitle": "Fountain by Marcel Duchamp"
     },
     {
       "name": "Surrealism",
@@ -222,7 +227,8 @@
       "description": "Realistic painting but in an impossible or dreamlike context that defies logic and reality.",
       "period_description": "A cultural movement that began in the early 1920s, best known for its visual artworks and writings that aimed to release the creative potential of the unconscious mind.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Surrealism",
-      "imageUrl": "https://placehold.co/200x200"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/dd/The_Persistence_of_Memory.jpg",
+      "imageTitle": "The Persistence of Memory by Salvador Dali"
     },
     {
       "name": "Abstract Expressionism",
@@ -231,7 +237,8 @@
       "description": "Gestural brushstrokes and emotive use of color, with form often barely recognizable.",
       "period_description": "A post-World War II art movement that developed in New York in the 1940s, characterized by spontaneous, automatic, or subconscious creation.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Abstract_expressionism",
-      "imageUrl": "/images/abstract-expressionism.jpeg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4a/No._5%2C_1948.jpg",
+      "imageTitle": "No. 5, 1948 by Jackson Pollock"
     },
     {
       "name": "Pop Art",
@@ -240,7 +247,8 @@
       "description": "Flat, graphic style with bold colors, often incorporating elements of mass media or advertising.",
       "period_description": "An art movement that emerged in the UK and the US during the mid- to late-1950s, challenging fine art traditions by including imagery from popular and mass culture.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Pop_art",
-      "imageUrl": "https://placehold.co/200x200"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/87/Marilyndiptych.jpg",
+      "imageTitle": "Marilyndiptych by Andy Warhol"
     },
     {
       "name": "Minimalism",
@@ -249,7 +257,8 @@
       "description": "Reduced to its most basic form, featuring simple shapes or monochromatic representations.",
       "period_description": "A movement in visual arts, music, and other mediums beginning in post-World War II Western art, characterized by extreme simplicity of form and a literal, objective approach.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Minimalism",
-      "imageUrl": "https://placehold.co/200x200"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Kazimir_Malevich%2C_1915%2C_Black_Suprematic_Square%2C_oil_on_linen_canvas%2C_79.5_x_79.5_cm%2C_Tretyakov_Gallery%2C_Moscow.jpg/1200px-Kazimir_Malevich%2C_1915%2C_Black_Suprematic_Square%2C_oil_on_linen_canvas%2C_79.5_x_79.5_cm%2C_Tretyakov_Gallery%2C_Moscow.jpg",
+      "imageTitle": "Black Square by Kazimir Malevich"
     },
     {
       "name": "Conceptual Art",
@@ -258,16 +267,8 @@
       "description": "Focus on ideas over visual forms, often involving written descriptions or ephemeral installations.",
       "period_description": "Art where the concept or idea behind the work is given more importance than the finished product, challenging traditional notions of art.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Conceptual_art",
-      "imageUrl": "https://placehold.co/200x200"
-    },
-    {
-      "name": "Digital Art",
-      "start_date": "1980-01-01",
-      "end_date": null,
-      "description": "Encompasses various digital styles, from photorealistic 3D modeling to pixel art and glitch aesthetics.",
-      "period_description": "Art created or presented using digital technologies, becoming increasingly widespread with advancements in computer technology.",
-      "wikipedia_link": "https://en.wikipedia.org/wiki/Digital_art",
-      "imageUrl": "https://placehold.co/200x200"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/2d/Kosuth_OneAndThreeChairs.jpg",
+      "imageTitle": "One and Three Chairs by Joseph Kosuth"
     }
   ]
 }
