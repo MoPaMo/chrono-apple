@@ -48,8 +48,13 @@ const updateContent = () => {
 
   // Extract year from start_date
   const startYear = new Date(epoch.start_date).getFullYear();
+  const endYear = new Date(epoch.end_date).getFullYear();
   elements.year.textContent =
-    startYear < 0 ? Math.abs(startYear) + " BCE" : startYear + " CE";
+    (startYear < 0 ? Math.abs(startYear) + " BCE" : startYear) +
+    " - " +
+    (endYear < 0
+      ? Math.abs(endYear) + " BCE"
+      : endYear + (startYear < 0 ? "CE" : ""));
 
   elements.dot.style.top = `${(currentEpoch / (epochs.length - 1)) * 100}%`;
 
