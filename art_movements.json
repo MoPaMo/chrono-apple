@@ -77,7 +77,8 @@
       "description": "Precise detail, accurate shading, and perfect perspective in paintings and sculptures.",
       "period_description": "A revival of classical learning and values, emphasizing realism and human-focused themes.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Renaissance_art",
-      "imageUrl": "https://placehold.co/200x200"
+      "imageUrl": "/images/renaissance.jpg",
+      "imageTitle": "The School of Athens by Raphael"
     },
     {
       "name": "Mannerism",
@@ -86,7 +87,8 @@
       "description": "Exaggerated, elegant styles with unusual colors or proportions.",
       "period_description": "A style that emerged from the later years of the Italian High Renaissance, reacting against harmonious classicism.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Mannerism",
-      "imageUrl": "https://placehold.co/200x200"
+      "imageUrl": "/images/mannerism.jpg",
+      "imageTitle": "Madonna with the Long Neck by Parmigianino"
     },
     {
       "name": "Baroque",
@@ -95,7 +97,8 @@
       "description": "Dramatic lighting, rich colors, and dynamic compositions.",
       "period_description": "An artistic style marked by exuberance, drama, and grandeur across sculpture, painting, architecture, and music.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Baroque",
-      "imageUrl": "https://placehold.co/200x200"
+      "imageUrl": "/images/baroque.jpg",
+      "imageTitle": "The Night Watch by Rembrandt"
     },
     {
       "name": "Rococo",
@@ -104,7 +107,8 @@
       "description": "Ornate, playful style with pastel colors and curving forms.",
       "period_description": "An 18th-century artistic movement characterized by lightness, elegance, and exuberant use of curving natural forms.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Rococo",
-      "imageUrl": "https://placehold.co/200x200"
+      "imageUrl": "/images/rococo.jpg",
+      "imageTitle": "The Swing by Jean-Honoré Fragonard"
     },
     {
       "name": "Neoclassicism",
@@ -113,7 +117,8 @@
       "description": "Idealized realism inspired by classical antiquity.",
       "period_description": "A revival of styles and spirit from classical antiquity, inspired directly from the classical period.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Neoclassicism",
-      "imageUrl": "https://placehold.co/200x200"
+      "imageUrl": "/images/neoclassicism.jpg",
+      "imageTitle": "Oath of the Horatii by Jacques-Louis David"
     },
     {
       "name": "Romanticism",
@@ -122,7 +127,8 @@
       "description": "Dreamy, idealized manner often set in natural settings with soft lighting.",
       "period_description": "An artistic, literary, musical, and intellectual movement emphasizing emotion and individualism.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Romanticism",
-      "imageUrl": "https://placehold.co/200x200"
+      "imageUrl": "/images/romanticism.jpg",
+      "imageTitle": "The Raft of the Medusa by Théodore Géricault "
     },
     {
       "name": "Realism",
@@ -131,7 +137,8 @@
       "description": "Unidealized depiction of everyday objects without embellishment.",
       "period_description": "An artistic movement characterized by subjects painted from everyday life in a naturalistic manner.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Realism_(arts)",
-      "imageUrl": "https://placehold.co/200x200"
+      "imageUrl": "/images/realism.jpg",
+      "imageTitle": "The Gleaners by Jean-François Millet"
     },
     {
       "name": "Impressionism",
@@ -140,7 +147,8 @@
       "description": "Visible brushstrokes, emphasis on light effects, and vibrant colors that capture a momentary impression.",
       "period_description": "A 19th-century art movement characterized by relatively small, thin, yet visible brush strokes, open composition, and emphasis on accurate depiction of light.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Impressionism",
-      "imageUrl": "https://placehold.co/200x200"
+      "imageUrl": "/images/impressionism.jpg",
+      "imageTitle": "Impression, Sunrise by Claude Monet"
     },
     {
       "name": "Post-Impressionism",
@@ -149,7 +157,8 @@
       "description": "Bold colors and thick brushstrokes, potentially distorting form for emotional effect.",
       "period_description": "A predominantly French art movement that developed roughly between 1886 and 1905, extending Impressionism while rejecting its limitations.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Post-Impressionism",
-      "imageUrl": "https://placehold.co/200x200"
+      "imageUrl": "/images/post-impressionism.jpg",
+      "imageTitle": "Starry Night by Vincent van Gogh"
     },
     {
       "name": "Art Nouveau",
@@ -158,7 +167,8 @@
       "description": "Organic, flowing lines and nature-inspired forms.",
       "period_description": "An international style of art, architecture, and applied art, characterized by highly-stylized, flowing, curvilinear designs often incorporating floral and other plant-inspired motifs.",
       "wikipedia_link": "https://en.wikipedia.org/wiki/Art_Nouveau",
-      "imageUrl": "https://placehold.co/200x200"
+      "imageUrl": "/images/art-nouveau.jpg",
+      "imageTitle": "The Kiss by Gustav Klimt"
     },
     {
       "name": "Fauvism",
