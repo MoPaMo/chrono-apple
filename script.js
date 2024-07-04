@@ -25,10 +25,28 @@ const setScrollContainerHeight = () => {
     epochs.length * 100
   }vh`;
 };
-const scroll = (direction) => {
-  window.scrollBy(0, direction * scrollThreshold);
-};
 
+function scroller(direction) {
+  // Calculate the target epoch index
+  const newEpoch = Math.max(
+    0,
+    Math.min(epochs.length - 1, currentEpoch + direction)
+  );
+
+  if (newEpoch !== currentEpoch) {
+    // Update current epoch index
+    let cE = newEpoch;
+
+    // Update the scroll position to the corresponding epoch
+    const targetScrollPosition =
+      (cE / (epochs.length - 1)) *
+      (document.documentElement.scrollHeight - window.innerHeight);
+    window.scrollTo({ top: targetScrollPosition, behavior: "smooth" });
+
+    // Update the content based on the new epoch
+    updateContent();
+  }
+}
 const updateContent = () => {
   const epoch = epochs[currentEpoch];
   const elements = {
